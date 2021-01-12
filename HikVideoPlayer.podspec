@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HikVision'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'HikVision'
 
   s.homepage         = 'https://github.com/myappcloud/HikVision'
