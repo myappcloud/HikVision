@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HikVision'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'HikVision'
 
   s.homepage         = 'https://github.com/myappcloud/HikVision'
@@ -10,9 +10,12 @@ Pod::Spec.new do |s|
 
 
   s.ios.deployment_target   = '9.0'
-  s.frameworks             = 'UIKit','AudioToolbox','CoreGraphics','CoreMedia','CoreVideo','Foundation','OpenGLES','QuartzCore','Security',
+  s.libraries    = 'c++', 'iconv','bz2'
+  s.frameworks             = 'UIKit','AudioToolbox','CoreGraphics','CoreMedia','CoreVideo','Foundation','OpenGLES','QuartzCore','Security'
 
   # s.public_header_files  =  '*.framework/Headers/*.h'
+  # s.source_files  = '*.framework/Headers/*.h'
+
   s.vendored_frameworks  =  'HikVideoPlayer.framework'
 
 end
