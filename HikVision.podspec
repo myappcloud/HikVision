@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HikVision'
-  s.version          = '1.0.4'
+  s.version          = '1.0.0'
   s.summary          = 'HikVision'
 
   s.homepage         = 'https://github.com/myappcloud/HikVision'
@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
 
   s.public_header_files  =  '*.framework/Headers/*.h'
   s.source_files = '*.framework/Headers/*.{h}'
-  s.requires_arc = true
   s.vendored_frameworks  =  '*.framework'
 
 end
